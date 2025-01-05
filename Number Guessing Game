@@ -1,0 +1,27 @@
+### NUMBER GUSSING GAME ###
+actual_number = 33
+attempts = 5
+
+while True:
+    attempts += 1
+    guess = int(input("Guess the number:\n"))
+    
+    if guess < actual_number:
+        print("Your guess was too low")
+
+    elif guess > actual_number:
+        print("Your guess was too high")
+
+
+
+
+    else:
+        print(f"You guessed the number in {attempts} attempts")
+        print("Thanks for playing!!")
+    
+    if guess == actual_number:
+        print("Give him 100 rupees")
+
+
+
+    break;
